@@ -2,3 +2,56 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.questionDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.stats, .hints {
+  width: 270px;
+}
+
+.favoritesAnswers {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imageOption {
+  cursor: pointer;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 740px) {
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .questionDiv {
+    display: initial;
+  }
+  .hints, .stats {
+    width: auto;
+  }
+}
+
+.optionBtn {
+padding: 5px;
+margin: 5px;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+h5 {
+margin-bottom: 1px;
+}
